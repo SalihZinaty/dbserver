@@ -27,4 +27,3 @@ e2e_test: export GUESTBOOK_URL = http://$(VERSION)-dot-$(GAE_PROJECT).appspot.co
 e2e_test: deploy
 	pip install -r e2e/requirements-dev.txt
 	python e2e/test_e2e.py
- 

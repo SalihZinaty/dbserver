@@ -6,7 +6,7 @@ threadsafe: true
 handlers:
 
 - url: /.*
-  script: guestbook.app
+  script: server.app
 # [END handlers]
 
 # [START libraries]
