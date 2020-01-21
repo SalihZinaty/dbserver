@@ -1,0 +1,7 @@
+indexes:
+- kind: Account
+  ancestor: yes
+  properties:
+  - name: date
+    direction: desc
+
