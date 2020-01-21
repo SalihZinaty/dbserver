@@ -1,4 +1,6 @@
 # [START imports]
+
+# importing the google datastore library and the webapp2 package
 from google.appengine.ext import ndb
 import webapp2
 DEFAULT_ACCOUNT_NAME = 'default_account'
@@ -148,5 +150,5 @@ app = webapp2.WSGIApplication([
     ('/undo', UndoHandler),
     ('/redo', RedoHandler),
     ('/end', EndHandler)
-], debug=True)
+], debug=False)
 # [END app]
