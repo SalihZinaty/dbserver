@@ -11,19 +11,24 @@ Example: https://salihzidb.appspot.com/set?name=salih&value=10
 Example: https://salihzidb.appspot.com/get?name=salih
 
 /unset: unset a name value
+
 Example: https://salihzidb.appspot.com/unset?name=salih
 
 /numequalto: check the number of names that have the same value
+
 Example: https://salihzidb.appspot.com/numequalto?value=2
 
 /undo: undo set/unset action on the last entered name
+
 Example: https://salihzidb.appspot.com/undo
 
 /redo: redo set/unset action on the last entered name
+
 Example: https://salihzidb.appspot.com/redo
 
 
 /end: delete all the data store
+
 Example: https://salihzidb.appspot.com/end
 
 
